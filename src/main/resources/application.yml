@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  #eureka server ������
+  #register-with-eureka:��ʾ��eureka�ڵ㲻��ע�����
+  #fetch-registry:��ʾ��eureka�ڵ㲻�ܷ��֣����ģ�����
+  #instance.secure-port-enabled:��ȫ�������ƣ��˿ڣ��ر�
+  eureka:
+    client:
+      register-with-eureka: false
+      fetch-registry: false
+      instance:
+        secure-port-enabled: false
+
